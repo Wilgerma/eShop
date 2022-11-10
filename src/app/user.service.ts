@@ -13,7 +13,7 @@ export class UserService {
   private user: Observable<firebase.User> | undefined;
 
   constructor(private db: AngularFireDatabase,private _firebaseAuth: AngularFireAuth) {
-    this.user =_firebaseAuth.authState;
+
   }
 
 
